@@ -1,8 +1,51 @@
 
+/* P1
 h1 {
 
   color: red;
 
   background-color: yellow;
 
+}*/
+
+/* P2
+p{
+  font-size: 10px;
+}
+.cursivaNegrita{
+  font-weight: bold;
+  font-style: italic;
+}*/
+
+div {
+
+  padding: 20px 50%;
+
+  background-color: blue;
+
+}
+
+.negro {
+
+  background-color: black;
+
+  color: white;
+
+}
+
+table {
+
+  border: 1px solid black;
+
+}
+
+th {
+
+  height: 50px;
+
+  width: 100px;
+
+}
+#parrafo{
+  display: none;
 }

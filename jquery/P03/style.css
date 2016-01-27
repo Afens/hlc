@@ -1,0 +1,16 @@
+.btnImg{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 40px 40px;
+  height: 50px;
+  width: 60px;
+  background-color: transparent;
+}
+.btnImg:active{
+  position:relative;
+  top:4px;
+}
+.foto{
+  width: 60px;
+  height: 75px;
+}

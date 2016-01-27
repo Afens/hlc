@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+  <form name="form1">
+    <div class="container">
+      <div class="col-lg-6">
+        <div class="form-group">
+          <label for="Name">Nombre</label>
+          <input type="text" class="form-control" id="Name" name="nombre">
+        </div>
+        <div class="form-group">
+          <label for="Edad">Edad</label>
+          <input type="number" class="form-control" id="Edad" name="edad">
+        </div>
+
+        <div class="checkbox">
+          <label>
+            <input name="repetidor" type="checkbox">Repetidor
+          </label>
+        </div>
+        <div class="form-group">
+          <label for="Poblacion">Poblacion</label>
+          <select name="poblacion" id="Poblacion" class="form-control">
+            <option>Algeciras</option>
+            <option>La Linea</option>
+            <option>Tarifa</option>
+          </select>
+        </div>
+      </div>
+      <div class="col-lg-6">
+
+        <div>
+          <label>Sexo</label>
+          <div class="radio">
+            <label>
+              <input name="sexo" type="radio" id="option1" value="Hombre" checked>Hombre
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input name="sexo" type="radio" id="option2" value="Mujer">Mujer
+            </label>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="Comentario">Comentario</label>
+          <textarea id="Comentario" class="form-control" name="comentario" rows="3"></textarea>
+        </div>
+
+        <button id="enviar" class="center-block btn btn-default">Enviar</button>
+      </div>
+    </div>
+  </form>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
